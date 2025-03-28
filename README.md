@@ -13,3 +13,13 @@ All numbers are randomly generated and sorted in ascending order.
 ## Building the Application
 
 To build the application, you need to have Go installed on your system. Then run:
+
+`make`
+or
+`go build -v -o euromillions main.go Euromillions.go`
+
+
+and run the application with a specified number of lines (default 3), e.g:
+`./euromillions --lines 16`
+
+
