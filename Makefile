@@ -27,10 +27,6 @@ run: build
 clean:
 	rm -f $(BINARY)
 	
-# Test the application
-test:
-	$(GO) test -v ./...
-
 # Format the code
 fmt:
 	$(GO) fmt ./...
